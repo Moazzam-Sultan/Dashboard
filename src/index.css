@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Yeh neeche wala part ensure karta hai ki body full screen le */
+body {
+  /* By default Light Gray, Dark Mode mein Dark Gray */
+  @apply bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300;
+}
+  body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
